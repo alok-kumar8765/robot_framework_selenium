@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.9.5 on win32)" generated="20211118 15:31:22.991" rpa="false" schemaversion="2">
+<suite id="s1" name="Logintest" source="C:\Users\Alok kumar\Documents\Automation_Robotic\pythonProject\TestCases\logintest.robot">
+<test id="s1-t1" name="LoginTest">
+<kw name="open my browser ${URL}">
+<arg>${BROWSER}</arg>
+<msg timestamp="20211118 15:31:23.383" level="FAIL">No keyword with name 'open my browser ${URL}' found.</msg>
+<status status="FAIL" starttime="20211118 15:31:23.383" endtime="20211118 15:31:23.383"/>
+</kw>
+<kw name="Enter User Name" library="loginKeywords">
+<arg>${user}</arg>
+<status status="NOT RUN" starttime="20211118 15:31:23.383" endtime="20211118 15:31:23.383"/>
+</kw>
+<kw name="Enter Password" library="loginKeywords">
+<arg>${pwd}</arg>
+<status status="NOT RUN" starttime="20211118 15:31:23.383" endtime="20211118 15:31:23.383"/>
+</kw>
+<kw name="Click SignIn" library="loginKeywords">
+<status status="NOT RUN" starttime="20211118 15:31:23.383" endtime="20211118 15:31:23.383"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>3</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" starttime="20211118 15:31:23.383" endtime="20211118 15:31:23.383"/>
+</kw>
+<kw name="Verify Successful Login" library="loginKeywords">
+<status status="NOT RUN" starttime="20211118 15:31:23.383" endtime="20211118 15:31:23.383"/>
+</kw>
+<kw name="close my browsers">
+<status status="NOT RUN" starttime="20211118 15:31:23.391" endtime="20211118 15:31:23.391"/>
+</kw>
+<status status="FAIL" starttime="20211118 15:31:23.367" endtime="20211118 15:31:23.391">No keyword with name 'open my browser ${URL}' found.</status>
+</test>
+<status status="FAIL" starttime="20211118 15:31:22.991" endtime="20211118 15:31:23.391"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Logintest">Logintest</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211118 15:31:23.367" level="ERROR">Error in resource file 'C:\Users\Alok kumar\Documents\Automation_Robotic\pythonProject\Resources\loginKeywords.robot': Creating keyword 'open my browser' failed: Invalid argument specification: Invalid argument syntax '${URL} ${BROWSER}'.</msg>
+</errors>
+</robot>
